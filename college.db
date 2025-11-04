@@ -1,0 +1,19 @@
+CREATE TABLE Employee (
+  EmpID INT PRIMARY KEY,
+  Name VARCHAR(100),
+  Salary DOUBLE
+);
+
+CREATE TABLE Product (
+  ProductID INT PRIMARY KEY,
+  ProductName VARCHAR(100),
+  Price DOUBLE,
+  Quantity INT
+);
+
+CREATE TABLE Student (
+  StudentID INT PRIMARY KEY,
+  Name VARCHAR(100),
+  Department VARCHAR(50),
+  Marks DOUBLE
+);
